@@ -24,7 +24,7 @@ pip install opencv-python mediapipe numpy
 1. Clone the repository:
 ```bash
 git clone https://github.com/jackrafaelparsons/PostureDetection.git
-cd main
+cd PostureDetection
 ```
 2. Run the script:
 ```bash
