@@ -23,12 +23,12 @@ pip install opencv-python mediapipe numpy
 ## Usage
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/head-pose-estimation.git
-cd head-pose-estimation
+git clone https://github.com/jackrafaelparsons/PostureDetection.git
+cd main
 ```
 2. Run the script:
 ```bash
-python head_pose_estimation.py
+python main.py
 ```
 3. The webcam will activate, and the real-time head pose estimation will be displayed.
 4. Press `ESC` to exit the program.
@@ -39,14 +39,11 @@ python head_pose_estimation.py
 - The 3D head position is calculated, and Euler angles are extracted to determine head pose.
 - The classified head orientation is displayed on the screen along with an FPS counter.
 
-## Example Output
+## Output
 The program provides a real-time display of the head pose estimation, including:
 - A visual indicator (blue line) showing nose direction
 - Text annotations indicating head orientation
 - FPS counter
-
-## License
-This project is licensed under the MIT License.
 
 ## Author
 Jack Parsons - [GitHub Profile](https://github.com/jackrafaelparsons)
